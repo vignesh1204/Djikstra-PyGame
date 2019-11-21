@@ -15,9 +15,11 @@ For example, a mouse click, key press, mouse cursor movement, etc. The event loo
 The function that updates the screen is pygame.display.flip(). Flip means update.
 We do all our function calling and screen creating processes in the event loop. When a certain button is clicked, the event is captured and the screen is updated.
 
+
 line 130 - 166   : Home screen code
 
 if f = 1 then it goes to next screen.
+
 
 
 line 167 - 261   : Place selection screen
@@ -33,11 +35,13 @@ if f1==4: Rajajinagar
 if f1==5: Majestic
 
 
+
 line 262 - 479   : Places to visit in Hebbal selection screen
 
 If go button is clicked, it goes to result screen. The result screen is where we call the dijkstra and distance                       functions.
 
 All the place selection screens run the same way.
+
 
 
 line 480 - 696   : Places to visit in Banashankari selection screen
