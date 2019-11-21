@@ -2,6 +2,7 @@
 A simple application using PyGame and Python 3.3 that finds the shortest path between selected points on a small preset map of Bangalore.
 
 Overview:
+
 line 1 - 94     : main function
 
 line 95 - 114   : dijkstra function
